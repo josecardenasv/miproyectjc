@@ -12,7 +12,7 @@
 /* Reset */
 * {
     box-sizing: border-box;
-    margin: 100px;
+    margin: 10px;
     padding: 10px;
     /* Para que el scrolleo en la one page sea suave */
     scroll-behavior: smooth;
