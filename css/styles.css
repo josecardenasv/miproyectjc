@@ -10,6 +10,37 @@
 */
 
 /* Reset */
+body {
+    background-color: #2b2d59;
+}
+.div-img {
+    display: flex;
+    justify-content: center;
+  }
+    
+   
+
+.circular--square {
+    display: inline-block;
+    position: relative;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 50%;
+   
+  }
+  .boton 
+{
+background-color: cornflowerblue;
+display: inline-block;
+width: 190px;
+text-align: center;
+text-decoration: none;
+color:aliceblue;
+padding: 15px 32px;
+border-radius: 15px;
+
+}
 * {
     box-sizing: border-box;
     margin: 10px;
