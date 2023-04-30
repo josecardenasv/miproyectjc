@@ -4,39 +4,80 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>jose cardenas </title>
+    <title>Jose cardenas </title>
 
-    <!-- CSS -->
-    <link rel="stylesheet" href="css/styles.css">
+   
+    <link rel="stylesheet" href="css/styles.css"> <!-- enlace  css  -->
 </head>
 <body>
     <header>
-      <div id="encabezado">
-        <img id="logo" src="img/logojosecardenas1.png" alt="logojosecardenas1" width="150px" height="150px"/><!-- logo  -->
-    
-        <a href="#">inicio </a>    <!-- botones inicio  -->
-        <a href="#">contacto</a>  <!-- boton contacto  -->
+      
+        <img src="img/logojosecardenas1.png"  class="logo" alt="logojosecardenas1" />
+
+                                                                          <!-- logo  -->
+    <nav>
+        <ul id="menu">
+            <li class="menu-items">
+                <a href="#inicio">inicio </a> <!-- botones inicio  -->
+            </li>
+            <li class="menu-items">
+                <a href="#contacto">contacto</a><!-- boton contacto  -->
+            </li>
+
+        </ul>
+    </nav>
         <hr>
-      </div>
+      
     </header>
 <main>
-    <div class="div-img">
-    <img class="circular--square" src="img/fotoperfiljc.jpg"  alt="centrar img con flexboxn"/><!-- imagen de  perfil -->
-</div>
-    <p>
-        Hola soy Venezolano viviendo en Chile desde, muy joven me apasiona la informatica de hecho fue una de las carreras que estudie
-        me gusta la tecnogia y la logica , tambien soy chef de profecion y de hecho actualmente trabajo asesorando restaurantes pero
-        quiero darle un giro a mi vida y retomar la informatica y aprender todo lo referente al desarollo web , y asi poder incurcionar
-        en este mundo , considero que tengo las habilidades necesarias para lograr mis objetivos .
-    </p>
+   
+    <section id="inicio">
+      <figure class="perfiljc">
+        <img  src="img/fotoperfiljc.jpg"  alt="Jose">
 
-     
-    <a href="#" class ="boton">Descarga mi CV </a>
+      </figure>
 
-    <p>
-        Me  gustaria  entran  en el mundo  de  desarrollo  web y  abrirme  una  carrera  a largo plazo  que me  permita establecerme en esta  
-        profecion y  poder  crecer laboralamente y implementar  proyectos y metas que ayuden  para  construcion de un mundo mejor .
-    </p>
+    <article class="presentacion">
+        <h1> Hola mucho gusto Soy Jose</h1>
+        <p>
+            Hola soy Venezolano viviendo en Chile desde, muy joven me apasiona la informatica de hecho fue una de las carreras que estudie
+            me gusta la tecnogia y la logica , tambien soy chef de profecion y de hecho actualmente trabajo asesorando restaurantes pero
+            quiero darle un giro a mi vida y retomar la informatica y aprender todo lo referente al desarollo web , y asi poder incurcionar
+            en este mundo , considero que tengo las habilidades necesarias para lograr mis objetivos .
+        </p>
+        
+        <a href="https://drive.google.com/file/d/1ncPP86IHMPKewSx59_eW72n4cuTxW0A9/view?usp=sharing" target="_blank" class ="boton">Descarga mi CV </a>
+        
+    </article>
+    </section>
+
+    <section id="contacto">
+        <div class="hablemos">
+        <h2> Hablemos</h2>
+        <p>
+            Me  gustaria  entran  en el mundo  de  desarrollo  web y  abrirme  una  carrera  a largo plazo  que me  permita establecerme en esta  
+            profecion y  poder  crecer laboralamente y implementar  proyectos y metas que ayuden  para  construcion de un mundo mejor
+        </div>
+        <div  id ="iconos">
+               <a href =" jottsecardenas@gmail.com "  title ="contactame " > 
+                <img  src ="img/mail.png" alt="contactame" width ="150px"> </a >  
+                
+                <a  href =" https://github.com/josecardenasv/miproyectjc"  title =" este es mi proyecto " > 
+                <img  src = "img/github.png" alt="mi proyecto" width ="150px"> </a > 
+                
+                <a href ="https://www.linkedin.com/in/jos%C3%A9-de-jesus-cardenas-vargas-610122212"  title =" Aqui encuentras mi perfil "  > 
+                <img  src =" img/linkedin.png " alt="conoceme" width ="150px"> </a >  
+            </div> 
+
+    </section>
+    <footer class="footer">
+        <p > Cardenas Vargas </p >
+    </footer >
+   
+   
+   
+   
+  
 
 
 

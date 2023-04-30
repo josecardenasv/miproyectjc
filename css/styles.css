@@ -2,7 +2,7 @@
 
 /* Fonts */
 /* Importar aquí la font */
-
+@import url('https://fonts.googleapis.com/css2? family= Lato:ital,wght@1,300 & display=swap');
 
 
 /* Aquí les dejamos como ayuda este "reset" en el cual ajustamos algunas propiedades
@@ -10,46 +10,40 @@
 */
 
 /* Reset */
-body {
-    background-color: #2b2d59;
-}
-.div-img {
-    display: flex;
-    justify-content: center;
-  }
-    
-   
-
-.circular--square {
-    display: inline-block;
-    position: relative;
-    width: 200px;
-    height: 200px;
-    overflow: hidden;
-    border-radius: 50%;
-   
-  }
-  .boton 
-{
-background-color: cornflowerblue;
-display: inline-block;
-width: 190px;
-text-align: center;
-text-decoration: none;
-color:aliceblue;
-padding: 15px 32px;
-border-radius: 15px;
-
-}
-* {
+*{
     box-sizing: border-box;
-    margin: 10px;
-    padding: 10px;
+    margin: 0;
+    padding: 0;
     /* Para que el scrolleo en la one page sea suave */
     scroll-behavior: smooth;
 }
+body {
+    font-family: 'lato', sans-serif ;
+    font-size: 18px;
+    line-height: 1.2;
+    background-color: #fbfbfb;
+    color:#0f0f0f;
 
-/* Para quitar los puntos a los items de listas */
+}
+h1{
+    font-size: 36px;
+    text-align: center;
+}
+
+h2{
+    font-size: 36px;
+    text-align: center;
+}
+
+p{
+    margin: 16px 0;
+}
+
+img{
+    max-width: 100%;
+}
+  
+    /* Para quitar los puntos a los items de listas */
 ul {
     list-style: none;
 }
@@ -85,3 +79,95 @@ main {
 *    pueden ser frustrantes, pero estas habilidades se van desarrollando con la experiencia, es como aprender
 *    un trabajo manual, hacer una artesanía, tocar un instrumento musical... la práctica es todo!
 */
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fbfbfb;
+    padding: 16px;
+    height: 90px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    box-shadow: 0 3px 10px #5f5f5f;
+    
+
+}
+.logo{
+    border-radius: 100px;
+    width: 100px;
+}
+
+ul#menu{
+    display: flex;
+    font-size: 20px;
+
+}
+
+li.menu-items a{
+    padding: 16px;
+
+}
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+    min-height: 100vh;
+    padding-top: 120px;
+
+}
+section#inicio{
+    justify-content:space-around;
+
+}
+figure.perfiljc{
+    margin-bottom: 25px;
+}
+figure.perfiljc img{
+    border-radius: 100px;
+    width: 210px;
+}
+article.presentacion{
+    width: 100%;
+    text-align:center;
+
+}
+a.boton{
+    background-color: #af999e;
+    color: #fbfbfb;
+    padding: 25px 15px;
+    border-radius: 50px;
+    min-height: 5vh;
+    font-size: 20px;
+    display: inline-block;
+
+}
+.hablemos{
+    background-color: #af999e;
+    margin: 20px;
+    color: #0f0f0f;
+    padding: 25px 20px;
+    border-radius: 15px;
+    align-items: center;
+    margin: 20px 20px;
+    justify-content: space-around;
+
+}
+#iconos{
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+}
+
+footer{
+display: flex;
+    background-color: #af999e;
+    color: #fbfbfb;
+    align-items: center;
+    justify-content: space-around;
+    height: 90px;
+    margin-bottom: 10 px;
+}
